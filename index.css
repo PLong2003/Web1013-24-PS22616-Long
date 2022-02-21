@@ -1,0 +1,124 @@
+body{
+    background-image: url(img/187163.jpg);
+}
+header{
+    height: 110px;
+    background-color: rgb(108, 180, 0);
+}
+header>b{
+    position: relative;
+    font-size: 300%;
+    color: white;
+    float: left;
+    width: 250px;
+    font-family: 'Lobster', cursive;
+}
+.sign{
+    position: relative;
+    top: 0%;
+    float: right;
+}
+.sign a{
+    color: white;
+    font-size: 110%;
+}
+.sign a:hover{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+header>.tuychon{
+    position: relative;
+    float: left;
+    left: 15%;
+    top: 8%;
+    width: 450px;
+    margin: 0px auto;
+} 
+header .tuychon li{
+    list-style-type: none;
+    float: left;
+}
+header .tuychon a{ 
+    padding: 6px;
+    font-size: 20px;
+    color: white;
+}
+.tuychon a:hover{
+    color: blue;
+}
+.seach-history{
+    position: relative;
+    color: blue;
+    left: 35%;
+    font-size: 20px;
+    width: 300px;
+}
+.seach-history>a{
+    color: blue;
+}
+.seach-history a:hover{
+    color: white;
+}
+.bodysp input{
+    position: relative;
+    width: 250px;
+    height: 25px;
+    float: none;
+    left: 35%;
+}
+.bodysp button{
+    position: relative;
+    left: 35%;
+    height: 30px;
+    width: 40px;
+    top: 4px;
+}
+.bodysp button img{
+    width: 20px;
+}
+.banner>img{
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 200px;
+    margin: 5%;
+    margin-bottom: 20px;
+}
+.sanpham > a{
+    top: 5px;
+    position: relative;
+}
+.sanpham b{
+    height: 100px;
+}
+.sanpham>p{
+    font-size: 30px;
+    left: 230px;
+    position: relative;
+    
+    width: 300px;
+}
+.sanpham{
+    
+    height: 300px;
+}
+footer>div{
+    width: 20%;
+    float: left;   
+    margin: 2%; 
+}
+body>iframe{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+footer a{
+    color: black;
+}
+@media all and (max-width: 320px) {
+   body {
+      background: #e7e7e7;
+   }
+}

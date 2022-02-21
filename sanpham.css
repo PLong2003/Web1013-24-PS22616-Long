@@ -1,0 +1,76 @@
+.sanpham > a{
+    top: 5px;
+    position: relative;
+}
+
+.container{
+    height: 70%;
+    width: 11%;
+    background-color: white;
+    position: relative;
+    float: left;
+    margin: 5%;
+    border-radius: 10px;     
+    border: 2px solid gray;
+}
+.container:hover{
+    background-color: rgb(192, 192, 192);
+    box-shadow: 3px 2px green;
+}
+.card{
+    height: auto;
+    width: 95%;
+    position: relative;
+    left: 3%;
+    top: 1%;
+}
+.card>img{
+    height: 90px;
+    width: 90%;
+    margin: 5%;
+}
+.sanpham>a{
+    position: relative;
+    right: -90px;
+    top: -10px;
+}
+.sanpham>p{
+    font-size: 30px;
+    width: 20%;
+}
+.infor>img{
+    position: relative;
+    width: 70%;
+    top:20px;
+    left: -10px;
+    float: right;
+}
+.infor>.gia{
+    float: right;
+    margin-top: 40px;
+    color: red;
+    height: 20px;
+    position: relative;
+}
+.infor>.ten{
+    position: relative;
+    color: black;
+    float: left;
+    height: 20px;
+}
+footer>div{
+    margin: 40px;
+    float: left;    
+}
+.page button{
+    position: relative;
+    width: 2%;
+    height: 40px;
+    left: -50%;
+    top: 280px;
+}
+.page button:hover{
+    background-color: black;
+    color: white;
+}
+
